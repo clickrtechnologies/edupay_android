@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">Edupay</string>
+    <string name="download_share">Download na tuma risiti</string>
+    <string name="verification_code">Namba ya uthibitisho</string>
+    <string name="resend_code">Tuma namba upya</string>
+    <string name="continue_text">Endelea</string>
+    <string name="welcm">Karibu EduPay</string>
+    <string name="login_type">Tafadhali chagua jinsi ungependa ku-login</string>
+    <string name="parent_login">Kiingilio kwa mzazi</string>
+    <string name="fees">Tazama maendeleo ya mwanafunzi, ada na mengineyo</string>
+    <string name="school_login">Kiingilio kwa shule</string>
+    <string name="manage">Simamia shughuli za shule na taarifa za wanafunzi.</string>
+    <string name="school_dashboard">Maelezo ya shule</string>
+    <string name="announce">Taarifa za shule</string>
+    <string name="parent_dashboard">Maelezo kwa mzazi</string>
+    <string name="payment_msg">Ombi lako la malipo limepokelewa</string>
+    <string name="confirmation_msg">Utapokea uthibitisho kutoka shule hivi punde</string>
+    <string name="message">Ujumbe</string>
+    <string name="yes">Ndio</string>
+    <string name="no">Hapana</string>
+    <string name="confirm">Kubali</string>
+    <string name="cancel">Kataa</string>
+    <string name="close">Funga</string>
+
+    <string-array name="audience_types">
+        <item>Wanafunzi wote</item>
+        <item>Darasa la kwanza</item>
+        <item>Darasa la pili</item>
+        <item>Darasa la tatu</item>
+        <item>Darasa la nne</item>
+        <item>Darasa la tano</item>
+        <item>Darasa la sita</item>
+        <item>Darasa la saba</item>
+        <item>Kidato cha kwanza</item>
+        <item>Kidato cha pili</item>
+        <item>Kidato cha tatu</item>
+        <item>Kidato cha nne</item>
+        <item>Kidato cha tano</item>
+    </string-array>
+
+    <string name="error_school_name_required">Tafadhali andika jina la shule</string>
+    <string name="error_school_address_required">Tafadhali andika anuani ya shule</string>
+    <string name="error_rep_name_required">Tafadhali andika jinala muakilishi</string>
+    <string name="error_email_required">Tafadhali andika anuani ya barua pepe</string>
+    <string name="error_email_invalid">Anuani ya barua pepe sio sahihi</string>
+    <string name="error_mobile_required">Tafadhali andika namba ya simu</string>
+    <string name="error_mobile_invalid">Namba ya simu sio sahihi</string>
+    <string name="error_account_required">Tafadhali andika namba ya akaunti ya pesa ya mtandao</string>
+
+    <string name="ok">Ok</string>
+    <string name="network_title">Hakuna intaneti</string>
+    <string name="network_error">Tafadhali kagua mtandao wako alafu jaribu tena</string>
+    <string name="no_result_found_student">Hakuna wanafunzi waliosajiliwa chini ya mtumiaji huyu</string>
+    <string name="enter_number">Andika namba</string>
+
+    <string name="phone_no">Namba ya simu</string>
+    <string name="email_address">Barua pepe</string>
+    <string name="welcome">Karibu EduPay</string>
+    <string name="enter_email">Andika email</string>
+    <string name="pay_fees">Lipa ada</string>
+    <string name="next">Endelea</string>
+    <string name="not_reg">Haujasajiliwa ? Jisaliji</string>
+    <string name="reg">Umeshasajiliwa ? Ingia</string>
+    <string name="valid_email_err">Tafadhali andika anuani ya barua pepe</string>
+    <string name="valid_mobile_err">Tafadhali andika namba ya simu</string>
+    <string name="valid_mobile_err1">Andika namba ya simu sahihi</string>
+    <string name="invalid_otp">Namba ya siri sio sahihi. Tafadhali jaribu tena</string>
+    <string name="email_note">Kumbuka: Hii anuani ya barua pepe</string>
+    <string name="ent_father_name">Andika jina la baba</string>
+    <string name="father_name">Jina la baba</string>
+    <string name="mother_name">Jina la mama</string>
+    <string name="ent_mother_name">Andika jina la mama</string>
+    <string name="prim_no">Namba ya simu ya kwanza</string>
+    <string name="enter_ad_email">Andika anuani ya barua pepe ya ziada</string>
+    <string name="submit">Wasilisha</string>
+    <string name="add_email">Anuani ya barua pepe ya ziada</string>
+    <string name="parent_name">Jina la mzazi</string>
+    <string name="Registered_Mobile">Simu iliosajiliwa</string>
+    <string name="additional_email">Barua pepe ya ziada</string>
+    <string name="registered_mobile">Simu iliosajiliwa</string>
+    <string name="mobile_money_account">Akaunti ya pesa ya mtandao</string>
+    <string name="school_name">Jina la shule</string>
+    <string name="upload_child_photo">Wasilisha picha ya mtoto</string>
+    <string name="go_to_dashboard">Endelea kwenye maelezo</string>
+
+
+    <string name="upload_image">Tafadhali wasilisha picha ya mtoto wako kabla ya kuendelea</string>
+    <string name="institute">Taasisi</string>
+    <string name="institute_name">Chagua taasisi</string>
+    <string name="branch_name">Chagua tawi</string>
+    <string name="batch_name">Chagua kundi</string>
+    <string name="registration_name">Chagua usajili</string>
+    <string name="branch_first">Tafadhali chagua tawi kwanza</string>
+    <string name="institute_first">Tafadhali chagua taasisi kwanza</string>
+    <string name="branch">Tawi</string>
+    <string name="batch">Kundi</string>
+    <string name="registration">Usajili</string>
+    <string name="select_terms">Chagua vigezo</string>
+    <string name="t1">Mhula wa kwanza</string>
+    <string name="t2">Mhula wa pili</string>
+    <string name="t3">Mhula wa tatu</string>
+    <string name="choose_one">Chagua mhula mmoja au zaidi kufahamu jumla ya gharama ya ada</string>
+    <string name="additional_options">Chaguo la ziada</string>
+    <string name="optional_service">Hizi ni huduma za ziada unaweza kuongeza</string>
+    <string name="final_payable">Kiasi cha mwisho cha kulipwa kulingana na chaguo lako</string>
+    <string name="student_fee_summary">Mukhtasari wa gharama ya ada ya mwanafunzi</string>
+    <string name="student_details">Maelezo ya mwanafunzi</string>
+    <string name="label_name">Jina:</string>
+    <string name="label_registration_no">Namba ya usajili:</string>
+    <string name="label_class">Darasa:</string>
+    <string name="label_batch">Kundi namba:</string>
+    <string name="label_institute">Taasisi:</string>
+    <string name="label_branch">Tawi:</string>
+    <string name="payment_details">Maelezo ya malipo</string>
+    <string name="term_fee">Ada ya mhula</string>
+    <string name="uniform_fee">Gharama ya sare za shule</string>
+    <string name="stationary_fee">Gharama ya stationary</string>
+    <string name="transportation_fee">Gharama ya usafiri</string>
+    <string name="service_charges">Gharama ya huduma</string>
+    <string name="total_amount">Gharama ya Jumla</string>
+    <string name="btn_pay_text">Lipa kwa simu</string>
+    <string name="btn_receipt_text">Download risiti</string>
+    <string name="share_receipt">Tuma risiti</string>
+    <string name="payment">Malipo</string>
+    <string name="bus_tracking">Fuatilia basi</string>
+    <string name="school_announcements">Taarifa ya shule</string>
+
+    <!-- Dashboard Titles / Options -->
+    <string name="payment_notifications">Maelezo ya malipo</string>
+    <string name="payment_statistics">Takwimu za malipo</string>
+    <string name="paid_vs_unpaid">Malipo na Madeni</string>
+    <string name="edit_profile">Badilisha profile</string>
+    <string name="payment_modes">Aina ya malipo</string>
+    <string name="emergency_notification">Taarifa ya dharura</string>
+    <string name="logout">Toka</string>
+
+    <string name="payment_history">Historia ya malipo</string>
+    <string name="student_activity">Shughuli za Mwanafunzi</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_title">Toka</string>
+    <string name="logout_message">Una uhakika unataka kutoka</string>
+
+    <string name="notification_channel_id">edupay</string>
+    <string name="reg_signin">Hujasajili ? Sajili shule yako</string>
+    <string name="login">Ingia</string>
+    <string name="valid_email_reg_err">Tafadhali sajili barua pepe yako</string>
+    <string name="already_reg">Umeshasajili ? Ingia</string>
+    <string name="reg_school">Sajili shule</string>
+    <string name="logo_description">EduPay Logo</string>
+    <string name="title_subscription_payment">Malipo ya Usajili wa Shule</string>
+    <string name="subscription_plan">Mpango wa Usajili</string>
+    <string name="from_your_school">Kutoka ( Shule yako )</string>
+    <string name="to_edupay">Kwenda ( EduPay )</string>
+    <string name="submit_for_payment">Wasilisha kwa Malipo</string>
+
+    <!-- Sample values (override from code dynamically) -->
+    <string name="sample_school_info">Jina la shule\nMalipo ya simu: 12345678</string>
+    <string name="sample_edupay_info">Krishil7\nMalipo ya simu: 12345678</string>
+
+    <string name="plan_monthly">$10 kwa mwezi</string>
+    <string name="plan_quarterly">$25 kila miezi mitatu</string>
+
+    <string name="plan_half_yearly">$45 kila miezi sita</string>
+    <string name="plan_yearly">$80 kwa mwaka</string>
+
+    <!-- Button States -->
+    <string name="submit_payment">Wasilisha kwa Malipo</string>
+    <string name="processing">Inachakata...</string>
+
+    <!-- Payment Info -->
+    <string name="to_info">Krishil7\nMalipo ya simu: 12345678</string>
+    <string name="from_mobile">Malipo ya simu: %1$s</string>
+
+    <!-- Dialog Strings -->
+    <string name="payment_success_title">Malipo Yamefanikiwa</string>
+    <string name="payment_success_msg">Asante! Usajili wako kwa EduPay umefanikiwa.</string>
+    <string name="payment_failed_title">Malipo Yameshindikana</string>
+    <string name="payment_failed_msg">Samahani, malipo yako yameshindikana. Tafadhali jaribu tena.</string>
+    <string name="retry">Jaribu tena</string>
+
+    <string name="paid">Imelipwa</string>
+    <string name="unpaid">Haijalipwa</string>
+    <string name="mode_with_value">Njia ya malipo: %1$s</string>
+    <string name="mode_na">Njia ya malipo: N/A</string>
+    <string name="term_with_value">Mhula wa %1$s</string>
+
+    <string name="transaction_id_format">Nambari ya muamala: %1$s</string>
+    <string name="rupee_with_amount">%1$s</string>
+    <string name="payment_success">Malipo yamefanikiwa</string>
+    <string name="payment_failed">Malipo yameshindikana</string>
+    <string name="amount">Kiasi</string>
+    <string name="date">Tarehe</string>
+    <string name="transaction_id">Namba ya muamala</string>
+    <string name="status">Hali</string>
+    <string name="payment_mode">Njia ya malipo</string>
+    <string name="view_details">Angalia maelezo</string>
+
+    <string name="label_student_name">Jina la mwanafunzi</string>
+    <string name="label_transaction_id">Namba ya muamala</string>
+    <string name="label_school_name">Jina la shule</string>
+    <string name="label_payment_date">Tarehe ya malipo</string>
+    <string name="label_status">Hali</string>
+    <string name="label_amount_paid">Kiasi kilicholipwa</string>
+    <string name="label_currency">Sarafu</string>
+    <string name="label_tuition_fee">Ada ya masomo</string>
+    <string name="label_transportation_fee">Gharama ya usafiri</string>
+    <string name="label_stationary_fee">Gharama ya stationary</string>
+    <string name="label_service_charges">Gharama ya huduma</string>
+    <string name="label_uniform_fee">Ada ya sare</string>
+    <string name="label_term1_fee">Ada ya mhula wa 1</string>
+    <string name="label_term2_fee">Ada ya mhula wa 2</string>
+    <string name="label_term3_fee">Ada ya mhula wa 3</string>
+    <string name="label_start_date">Tarehe ya kuanza</string>
+    <string name="label_end_date">Tarehe ya mwisho</string>
+    <string name="label_payment_method">Njia ya malipo</string>
+    <string name="label_payment_status">Hali ya malipo:</string>
+
+    <!-- Events -->
+    <string name="event_title">Mashindano ya uandishi wa insha</string>
+    <string name="event_date">1 Juni 2025, Jumatatu</string>
+    <string name="event_brief">Mashindano ya uandishi wa insha yalifanyika shuleni kwa wanafunzi wa darasa la 7.</string>
+    <string name="event_participants">Jumla ya idadi ya washiriki: </string>
+    <string name="event_venue">Ukumbi: Jukwaa la maonyesho</string>
+    <string name="event_winners">Washindi:</string>
+    <string name="see_all_details">Angalia maelezo yote</string>
+    <string name="hide_details">Funika maelezo</string>
+
+    <string name="icon_desc">Ikoni ya matangazo</string>
+
+    <!-- Announcements -->
+    <string name="announcement_title_emergency">Tahadhari ya dharura</string>
+    <string name="announcement_msg_emergency">Kunaweza kuwa na ucheleweshaji kwa sababu ya dharura. Tutakujulisha pindi itakapotatuliwa.</string>
+    <string name="announcement_title_bus_arriving">Basi litawasili baada ya dakika 5</string>
+    <string name="announcement_msg_bus_arriving">Basi namba TS 08 GR 7634 linawasili kwenye kituo chako baada ya dakika 5.</string>
+    <string name="announcement_title_payment">Kikumbusho cha malipo</string>
+    <string name="announcement_msg_payment">Malipo yako yanahitajika ndani ya siku 5 zijazo.</string>
+
+    <!-- OTP -->
+    <string name="otp_sent">Otp imetumwa ipasavyo.</string>
+
+    <!-- Terms -->
+    <string name="term1">Mhula wa 1</string>
+    <string name="term2">Mhula wa 2</string>
+    <string name="term3">Mhula wa 3</string>
+
+<!--change by myself-->
+    <string name="payment_due">Malipo Yanayodaiwa</string>
+    <string name="payment_received">Malipo Yamepokelewa</string>
+    <string name="select_language">Tafadhali chagua lugha yako</string>
+    <string name="english">English</string>
+    <string name="french">Kifaransa</string>
+    <string name="app_logo">Nembo ya Programu</string>
+    <string name="select_payment_mode">Chagua Njia ya Malipo</string>
+    <string name="partial_amount">Unaweza kulipa sehemu ya kiasi kwa muhula huu. Kiasi kilichobaki kitabaki kudaiwa.</string>
+    <string name="amount_due">Kiasi Kinachodaiwa: ₹0</string>
+    <string name="due_date">Tarehe ya Mwisho: N/A</string>
+    <string name="pay_now">Lipa Sasa</string>
+    <string name="partial_term_payment_title">Malipo ya Sehemu ya Muhula</string>
+    <string name="amount_due_label">Jumla ya Kiasi Kinachodaiwa:</string>
+    <string name="due_date_label">Tarehe ya Mwisho:</string>
+    <string name="enter_amount_label">Weka Kiasi Unachotaka Kulipa:</string>
+    <string name="enter_amount">Weka Kiasi</string>
+    <string name="enter_amount_hint">mfano, 1500.00</string>
+
+    <string name="choose_payment_method">Chagua Njia ya Malipo</string>
+    <string name="enter_amount_valid">Tafadhali weka kiasi.</string>
+    <string name="enter_valid_amount">Tafadhali weka kiasi sahihi</string>
+    <string name="entered_amount_exceeds_due">Kiasi kilichoingizwa kinazidi deni halisi</string>
+    <string name="amount_due_formatted">Kiasi Kinachodaiwa: $%1$s</string>
+    <string name="enter_amount_hint_v1">Weka kiasi cha kulipa</string>
+    <string name="swaheli">Kiswahili</string>
+    <string name="received_by_mode">Imepokelewa kwa Njia</string>
+    <string name="no_data_available">Malipo Yanayodaiwa</string>
+    <string name="outstanading">Kiasi Kisicholipwa</string>
+    <string name="outstanding_amount_formatted">Kiasi Kisicholipwa: $%1$.2f</string>
+    <string name="enter_minimum_100">Weka angalau ₹100</string>
+    <string name="amount_should_not_exceed_term_fees">Kiasi kisizidi ada ya jumla ya muhula</string>
+    <string name="invalid_amount_exceeds_term_fees">Kiasi batili: kinazidi ada ya muhula</string>
+    <string name="paid_amount">Kiasi Kilicholipwa</string>
+    <string name="select_payment_method">Chagua Njia ya Malipo</string>
+
+    <!-- Hints and Labels -->
+    <string name="hint_bank_name">Jina la Benki</string>
+    <string name="hint_account_number">Nambari ya Akaunti</string>
+    <string name="hint_enter_pin">Weka PIN</string>
+    <string name="hint_crdb_reference">Weka Nambari ya Rejeleo ya CRDB</string>
+    <string name="hint_mobile_money">Nambari ya Akaunti ya Pesa kwa Simu</string>
+
+    <!-- Spinner Items -->
+    <string name="spinner_select_method">Chagua Njia ya Malipo</string>
+    <string name="spinner_bank_transfer">Uhamisho wa Benki</string>
+    <string name="spinner_via_pin">Kupitia PIN</string>
+    <string name="spinner_crdb_ref">Kupitia Nambari ya Rejeleo ya CRDB</string>
+    <string name="spinner_mobile_money">Akaunti ya Pesa kwa Simu</string>
+
+    <!-- Validation Errors -->
+    <string name="error_select_method">Tafadhali chagua njia ya malipo</string>
+    <string name="error_bank_name_required">Jina la benki linahitajika</string>
+    <string name="error_account_required_1">Nambari ya akaunti inahitajika</string>
+    <string name="error_account_short">Nambari ya akaunti ni fupi sana</string>
+    <string name="error_pin_required">PIN inahitajika</string>
+    <string name="error_pin_short">PIN lazima iwe na angalau tarakimu 4</string>
+    <string name="error_crdb_required">Nambari ya rejeleo inahitajika</string>
+    <string name="error_mobile_required_1">Nambari ya pesa kwa simu inahitajika</string>
+    <string name="error_mobile_invalid_1">Weka nambari sahihi ya simu</string>
+
+    <!-- Feedback & Toast -->
+    <string name="toast_payment_started">Malipo yameanzishwa...</string>
+    <string name="enter_here">Weka Hapa</string>
+
+    <string name="please_select_payment_method">Tafadhali chagua njia ya malipo</string>
+
+    <!-- Bank Transfer -->
+    <string name="bank_name_required">Jina la benki linahitajika</string>
+    <string name="account_number_required">Nambari ya akaunti inahitajika</string>
+    <string name="account_number_too_short">Nambari ya akaunti ni fupi sana</string>
+
+    <!-- Via PIN -->
+    <string name="pin_required">PIN inahitajika</string>
+    <string name="pin_too_short">PIN lazima iwe na angalau tarakimu 4</string>
+
+    <!-- CRDB Reference -->
+    <string name="crdb_ref_required">Nambari ya rejeleo inahitajika</string>
+
+    <!-- Mobile Money -->
+    <string name="mobile_money_required">Nambari ya pesa kwa simu inahitajika</string>
+    <string name="mobile_money_invalid">Weka nambari sahihi ya simu</string>
+    <string name="partial_payment_option">Je, ungependa kufanya malipo ya sehemu?</string>
+    <string name="submit_profile">Tuma Wasifu</string>
+    <string name="pic_location">Chagua Eneo la Shule (Google Map)</string>
+    <string name="upload_school_logo">Pakia Nembo ya Shule</string>
+    <string name="enter_school_name">Weka Jina la Shule</string>
+    <string name="school_address">Anuani ya Shule</string>
+    <string name="school_address_er">Weka Anuani ya Shule</string>
+    <string name="rr_name">Jina la Mwakilishi Aliyeidhinishwa</string>
+    <string name="rr_name_main">Weka Jina la Mwakilishi</string>
+    <string name="aaa_no">Nambari ya Simu ya Mwakilishi Aliyeidhinishwa</string>
+    <string name="enter_mobile_number">Weka Nambari ya Simu</string>
+    <string name="enter_account_number">Weka Nambari ya Akaunti</string>
+    <string name="no_result_found_branch">Hakuna tawi linalohusishwa na shule hii.</string>
+    <string name="school_detail">Maelezo ya Shule</string>
+    <string name="bank_detail">Maelezo ya Benki</string>
+    <string name="student_detail">Maelezo ya Mwanafunzi</string>
+    <string name="upload_parent_photo">Pakia Picha ya Mzazi</string>
+
+
+</resources>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- Add variables if needed -->
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Header -->
+                <com.example.edupay.font.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/student_fee_summary"
+                    android:textColor="@color/white"
+                    style="@style/manrope.Bold" />
+
+                <!-- Student Detail Card -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/rounded_white_card"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/student_details"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.Bold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_name"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvStudentName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/label_registration_no"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvSelectedRegNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/label_class"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvStudentGrade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/label_batch"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvStudentBatch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/label_institute"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvSelectedInstitute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/label_branch"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.semibold" />
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:id="@+id/tvSelectedBranch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        style="@style/manrope.regular" />
+                </LinearLayout>
+
+                <!-- Payment Detail Card -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/rounded_white_card"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <com.example.edupay.font.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/payment_details"
+                        android:textColor="@color/text_color"
+                        style="@style/manrope.Bold" />
+
+                    <!-- Payment Rows -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/term_fee"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvTermFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnPaidAmount"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:text="@string/paid_amount"
+                            android:textColor="@color/btn_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvPaidAmountFee"
+                            android:layout_width="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/btn_color"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/uniform_fee"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvUniformFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/stationary_fee"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvStationaryFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/transportation_fee"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvTransportFee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lnOutstanding"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:text="@string/outstanading"
+                            android:textColor="@color/btn_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvOutstandingFee"
+                            android:layout_width="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/service_charges"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.semibold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvServiceCharge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.regular" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="8dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/total_amount"
+                            android:textColor="@color/text_color"
+                            style="@style/manrope.Bold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/tvTotalAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            style="@style/manrope.Bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Pay Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/choose_payment_method"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:cornerRadius="20dp"
+                    app:icon="@drawable/ic_mobile_payment"
+                    app:iconGravity="start"
+                    app:iconPadding="8dp"
+                    app:iconTint="@color/white"
+                    app:rippleColor="@color/colorPrimaryDark" />
+
+                <!-- Receipt Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDownloadReceipt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:text="@string/btn_receipt_text"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    app:backgroundTint="@color/gray"
+                    app:cornerRadius="20dp"
+                    app:icon="@drawable/ic_download"
+                    app:iconGravity="end"
+                    app:iconTint="@color/black" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DirectPay" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/dulex_primary</item>
+    </style>
+
+    <style name="Theme.DirectPay" parent="Base.Theme.DirectPay" >
+        <item name="android:statusBarColor">@color/dulex_primary</item>
+    </style>
+    <style name="Theme.Splash" parent="Base.Theme.DirectPay" >
+        <item name="android:statusBarColor">@color/dulex_primary_yellow</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="manrope.regular" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="typeface">manropeFallback</item>
+
+
+    </style>
+
+    <style name="manrope.Bold" parent="@style/manrope.regular">
+        <item name="typeface">manropebold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+
+    <style name="manrope.semibold" parent="@style/manrope.regular">
+        <item name="typeface">manropeSemibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <style name="TextViewAppearance.regular" parent="@style/manrope.regular">
+        <item name="typeface">manropeFallback</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+    </style>
+
+    <style name="RobotoTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+</resources>

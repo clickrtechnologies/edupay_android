@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name">Edupay</string>
+    <string name="download_share"><![CDATA[Download & Share Receipt]]></string>
+    <string name="verification_code">Verification Code</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="continue_text">Continue</string>
+    <string name="welcm">Welcome to EduPay</string>
+    <string name="login_type">Please select your login type to continue.</string>
+    <string name="parent_login">Parent Login</string>
+    <string name="fees">Access your child\'s progress, fees, and more.</string>
+    <string name="school_login">School Login</string>
+    <string name="manage">Manage school operations and student data.</string>
+    <string name="school_dashboard">School Dashboard</string>
+    <string name="announce">School Announcements</string>
+    <string name="parent_dashboard">Parents Dashboard</string>
+    <string name="payment_msg">Your payment has been sucessfully initiated for fee process</string>
+    <string name="confirmation_msg">You will receive a confirmation from the School soon!</string>
+    <string name="message">Message</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string-array name="audience_types">
+        <item>All Students</item>
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+        <item>Class 5</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+        <item>Class 12</item>
+    </string-array>
+
+    <string name="error_school_name_required">Please enter the school name</string>
+    <string name="error_school_address_required">Please enter the school address</string>
+    <string name="error_rep_name_required">Please enter the representative name</string>
+    <string name="error_email_required">Please enter the email address</string>
+    <string name="error_email_invalid">Invalid email format</string>
+    <string name="error_mobile_required">Please enter the mobile number</string>
+    <string name="error_mobile_invalid">Invalid mobile number</string>
+    <string name="error_account_required">Please enter the mobile money account number</string>
+
+    <string name="ok">OK</string>
+    <string name="network_title">No Internet Connection</string>
+    <string name="network_error">Please check your network connection and try again.</string>
+    <string name="no_result_found_student">No students have been registered under this user.</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="welcome">Welcome To EduPay!</string>
+    <string name="enter_email">Enter E-mail</string>
+    <string name="pay_fees">Pay Fees</string>
+    <string name="next">Next</string>
+    <string name="not_reg">Not Registered? Sign Up</string>
+    <string name="reg">Already registered? Sign In</string>
+    <string name="valid_email_err">Please enter Registered Email ID.</string>
+    <string name="valid_mobile_err">Please enter mobile number.</string>
+    <string name="valid_mobile_err1">Enter a valid mobile number.</string>
+    <string name="invalid_otp">Invalid OTP. Please try again.</string>
+    <string name="email_note">Note: This will be your login email ID</string>
+    <string name="ent_father_name">Enter Father\'s Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="ent_mother_name">Enter Mother\'s Name</string>
+    <string name="prim_no">Primary Phone Number</string>
+    <string name="enter_ad_email">Enter Additional Email ID</string>
+    <string name="submit">Submit</string>
+    <string name="add_email">Additional E-mail ID</string>
+    <string name="parent_name">Parent Name</string>
+    <string name="Registered_Mobile">Registered Mobile</string>
+    <string name="additional_email">Additional Email</string>
+    <string name="registered_mobile">Registered Mobile</string>
+    <string name="mobile_money_account">Mobile Money Account</string>
+    <string name="school_name">School Name</string>
+    <string name="upload_child_photo">Upload Child Photo</string>
+    <string name="go_to_dashboard">Go to Dashboard</string>
+
+    <string name="upload_image">Please upload your child\'s photo before proceeding.</string>
+    <string name="institute">Institute</string>
+    <string name="institute_name">Select Institute</string>
+    <string name="branch_name">Select Branch</string>
+    <string name="batch_name">Select Batch</string>
+    <string name="registration_name">Select Registration</string>
+    <string name="branch_first">Please select branch first.</string>
+    <string name="institute_first">Please select institute first.</string>
+    <string name="branch">Branch</string>
+    <string name="batch">Batch</string>
+    <string name="registration">Registration</string>
+    <string name="select_terms">Select Term(s)</string>
+    <string name="t1">Term 1 (USD 00)</string>
+    <string name="t2">Term 2 (USD 00)</string>
+    <string name="t3">Term 3 (USD 00)</string>
+    <string name="choose_one">Choose one or more terms to calculate your tuition fees.</string>
+    <string name="additional_options">Additional Options</string>
+    <string name="optional_service">These are optional services you can include in your total.</string>
+    <string name="final_payable">Final payable amount based on your selections.</string>
+    <string name="student_fee_summary">Student Fee Summary</string>
+    <string name="student_details">Student Details</string>
+    <string name="label_name">Name:</string>
+    <string name="label_registration_no">Registration No:</string>
+    <string name="label_class">Class:</string>
+    <string name="label_batch">Batch Number:</string>
+    <string name="label_institute">Institute:</string>
+    <string name="label_branch">Branch:</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="term_fee">Term Tuition Fee:</string>
+    <string name="uniform_fee">Uniform Fee:</string>
+    <string name="stationary_fee">Stationary Fee:</string>
+    <string name="transportation_fee">Transportation Fee:</string>
+    <string name="service_charges">Service Charges:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="btn_pay_text">Pay with Mobile Money</string>
+    <string name="btn_receipt_text">Download Receipt</string>
+    <string name="share_receipt">Share Receipt</string>
+    <string name="payment">Payment</string>
+    <string name="bus_tracking">Bus Tracking</string>
+    <string name="school_announcements">School Announcements</string>
+    <!-- Dashboard Titles -->
+
+    <!-- Dashboard Options -->
+    <string name="payment_notifications">Payment Notifications</string>
+    <string name="payment_statistics">Payment Statistics</string>
+    <string name="paid_vs_unpaid">Paid vs Unpaid</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="payment_modes">Payment Modes</string>
+    <string name="emergency_notification">Emergency Notification</string>
+    <string name="logout">Logout</string>
+
+    <string name="payment_history">Payment History</string>
+    <string name="student_activity">Student Activity</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="notification_channel_id">edupay</string>
+    <string name="reg_signin">Not registered? Register your school</string>
+    <string name="login">Login</string>
+    <string name="valid_email_reg_err">Please enter Registered Email ID.</string>
+    <string name="already_reg">Already registered? Sign In</string>
+    <string name="reg_school">Register School</string>
+    <string name="logo_description">EduPay Logo</string>
+    <string name="title_subscription_payment">School Subscription Payment</string>
+    <string name="subscription_plan">Subscription Plan</string>
+    <string name="from_your_school">From (Your School)</string>
+    <string name="to_edupay">To (EduPay)</string>
+    <string name="submit_for_payment">Submit For Payment</string>
+
+    <!-- Sample values (override from code dynamically) -->
+    <string name="sample_school_info">School Name\nMobile Money: 12345678</string>
+    <string name="sample_edupay_info">Krishil7\nMobile Money: 1234567890</string>
+
+    <string name="plan_monthly">$10 Monthly</string>
+    <string name="plan_quarterly">$25 Quarterly</string>
+    <string name="plan_half_yearly">$45 6 Monthly</string>
+    <string name="plan_yearly">$80 Yearly</string>
+
+    <!-- Button States -->
+    <string name="submit_payment">Submit for Payment</string>
+    <string name="processing">Processing...</string>
+
+    <!-- Payment Info -->
+    <string name="to_info">Krishil7\nMobile Money: 1234567890</string>
+    <string name="from_mobile">Mobile Money: %1$s</string>
+
+    <!-- Dialog Strings -->
+    <string name="payment_success_title">Payment Successful</string>
+    <string name="payment_success_msg">Thank you! Your subscription to EduPay is successful.</string>
+    <string name="payment_failed_title">Payment Failed</string>
+    <string name="payment_failed_msg">Sorry, your payment failed. Please retry.</string>
+    <string name="retry">Retry</string>
+
+    <string name="paid">Paid</string>
+    <string name="unpaid">Unpaid</string>
+    <string name="mode_with_value">Mode: %1$s</string>
+    <string name="mode_na">Mode: N/A</string>
+    <string name="term_with_value">Term %1$s</string>
+
+    <string name="transaction_id_format">Transaction ID: %1$s</string>
+    <string name="rupee_with_amount">₹ %1$s</string>
+    <string name="payment_success">Payment Successful</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="status">Status</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="view_details">View Details</string>
+
+    <string name="label_student_name">Student Name</string>
+    <string name="label_transaction_id">Transaction ID</string>
+    <string name="label_school_name">School Name</string>
+    <string name="label_payment_date">Payment Date</string>
+    <string name="label_status">Status</string>
+    <string name="label_amount_paid">Amount Paid</string>
+    <string name="label_currency">Currency</string>
+    <string name="label_tuition_fee">Tuition Fee</string>
+    <string name="label_transportation_fee">Transportation Fee</string>
+    <string name="label_stationary_fee">Stationary Fee</string>
+    <string name="label_service_charges">Service Charges</string>
+    <string name="label_uniform_fee">Uniform Fee</string>
+    <string name="label_term1_fee">Term 1 Fee</string>
+    <string name="label_term2_fee">Term 2 Fee</string>
+    <string name="label_term3_fee">Term 3 Fee</string>
+    <string name="label_start_date">Start Date</string>
+    <string name="label_end_date">End Date</string>
+    <string name="label_payment_method">Payment Method</string>
+
+    <string name="label_payment_status">Payment Status:</string>
+
+    <string name="event_title">Essay Writing Competition</string>
+    <string name="event_date">1 June 2025, Monday</string>
+    <string name="event_brief">Essay writing competition was conducted at school for students for class 7 students.</string>
+    <string name="event_participants">Total No. Of Participants: </string>
+    <string name="event_venue">Venue: Amphitheatre</string>
+    <string name="event_winners">Winners: </string>
+    <string name="see_all_details">See All Details</string>
+    <string name="hide_details">Hide Details</string>
+
+    <string name="icon_desc">Announcement Icon</string>
+
+    <!-- Sample announcements -->
+    <string name="announcement_title_emergency">Emergency Alert</string>
+    <string name="announcement_msg_emergency">There might be a delay due to an emergency. We’ll notify once resolved.</string>
+    <string name="announcement_title_bus_arriving">Bus Arriving in 5 mins</string>
+    <string name="announcement_msg_bus_arriving">Bus No. TS 08 GR 7634 is arriving in 5 mins at your stop.</string>
+    <string name="announcement_title_payment">Payment Reminder</string>
+    <string name="announcement_msg_payment">Your payment is due in the next 5 days.</string>
+    <string name="otp_sent">Otp Sent Successfully.</string>
+    <string name="term1">Term 1</string>
+    <string name="term2">Term 2</string>
+    <string name="term3">Term 3</string>
+
+
+    <string name="payment_due">Payment Due</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="select_language">Please select your language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="app_logo">App logo</string>
+    <string name="select_payment_mode">Select Payment Mode</string>
+    <string name="partial_amount">You can pay a partial amount for this term. The rest will be outstanding.</string>
+    <string name="amount_due">Amount Due: ₹0</string>
+    <string name="due_date">Due Date: N/A</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="partial_term_payment_title">Partial Term Payment</string>
+    <string name="amount_due_label">Total Amount Due:</string>
+    <string name="due_date_label">Due Date:</string>
+    <string name="enter_amount_label">Enter Amount You Wish to Pay:</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_amount_hint">e.g., 1500.00</string>
+
+    <string name="choose_payment_method">Choose Payment Method</string>
+    <string name="enter_amount_valid">Please enter amount.</string>
+    <string name="enter_valid_amount">Please enter a valid amount</string>
+    <string name="entered_amount_exceeds_due">Entered amount exceeds the actual due</string>
+    <string name="amount_due_formatted">Amount Due: $%1$s</string>
+    <string name="enter_amount_hint_v1">Enter amount to pay</string>
+    <string name="swaheli">Swaheli</string>
+    <string name="received_by_mode">Received by Mode</string>
+    <string name="no_data_available">Payment Due</string>
+    <string name="outstanading">Outstanding Amount</string>
+    <string name="outstanding_amount_formatted">Outstanding Amount: $%1$.2f</string>
+    <string name="enter_minimum_100">Enter at least ₹100</string>
+    <string name="amount_should_not_exceed_term_fees">Amount should not exceed total term fees</string>
+    <string name="invalid_amount_exceeds_term_fees">Invalid amount: exceeds term fees</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="select_payment_method">Select Payment Method</string>
+
+    <!-- Hints and Labels -->
+    <string name="hint_bank_name">Bank Name</string>
+    <string name="hint_account_number">Account Number</string>
+    <string name="hint_enter_pin">Enter PIN</string>
+    <string name="hint_crdb_reference">Enter CRDB Reference Number</string>
+    <string name="hint_mobile_money">Mobile Money Account Number</string>
+
+    <!-- Spinner Items -->
+    <string name="spinner_select_method">Select Payment Method</string>
+    <string name="spinner_bank_transfer">Bank Transfer</string>
+    <string name="spinner_via_pin">Via PIN</string>
+    <string name="spinner_crdb_ref">Via CRDB Reference Number</string>
+    <string name="spinner_mobile_money">Mobile Money Account</string>
+
+    <!-- Validation Errors -->
+    <string name="error_select_method">Please select a payment method</string>
+    <string name="error_bank_name_required">Bank name is required</string>
+    <string name="error_account_required_1">Account number is required</string>
+    <string name="error_account_short">Account number is too short</string>
+    <string name="error_pin_required">PIN is required</string>
+    <string name="error_pin_short">PIN must be at least 4 digits</string>
+    <string name="error_crdb_required">Reference number is required</string>
+    <string name="error_mobile_required_1">Mobile money number is required</string>
+    <string name="error_mobile_invalid_1">Enter a valid phone number</string>
+
+    <!-- Feedback & Toast -->
+    <string name="toast_payment_started">Payment initiated...</string>
+    <string name="enter_here">Enter Here</string>
+
+    <string name="please_select_payment_method">Please select a payment method</string>
+
+    <!-- Bank Transfer -->
+    <string name="bank_name_required">Bank name is required</string>
+    <string name="account_number_required">Account number is required</string>
+    <string name="account_number_too_short">Account number is too short</string>
+
+    <!-- Via PIN -->
+    <string name="pin_required">PIN is required</string>
+    <string name="pin_too_short">PIN must be at least 4 digits</string>
+
+    <!-- CRDB Reference -->
+    <string name="crdb_ref_required">Reference number is required</string>
+
+    <!-- Mobile Money -->
+    <string name="mobile_money_required">Mobile money number is required</string>
+    <string name="mobile_money_invalid">Enter a valid phone number</string>
+    <string name="partial_payment_option">Would you like to make a partial payment?</string>
+    <string name="submit_profile">Submit Profile</string>
+    <string name="pic_location">Pick School Location (Google Map)</string>
+    <string name="upload_school_logo">Upload School Logo</string>
+    <string name="enter_school_name">Enter School Name</string>
+    <string name="school_address">School Address</string>
+    <string name="school_address_er">Enter School Address</string>
+    <string name="rr_name">Authorised Representative Name</string>
+    <string name="rr_name_main">Enter Representative Name</string>
+    <string name="aaa_no">Authorised Representative Mobile Number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_account_number">Enter Account Number</string>
+    <string name="no_result_found_branch">No branch is associated with this school.</string>
+    <string name="school_detail">School Details</string>
+    <string name="bank_detail">Bank Details</string>
+    <string name="student_detail">Student Details</string>
+    <string name="upload_parent_photo">Upload Parent Photo</string>
+
+</resources>

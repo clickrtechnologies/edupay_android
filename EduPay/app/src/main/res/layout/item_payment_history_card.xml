@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="12dp"
+    android:elevation="4dp"
+    android:padding="12dp"
+    app:contentPadding="10dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvChildName"
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child Name"
+            android:textSize="16sp" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvTermPayment"
+            style="@style/manrope.regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Term 1 Payment" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvInclusions"
+            style="@style/manrope.regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inclusions - Nil" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvPaymentStatus"
+            style="@style/manrope.regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green_500"
+            android:text="Payment Status - Successful" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvAmount"
+            style="@style/manrope.semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$849"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

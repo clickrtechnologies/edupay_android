@@ -1,0 +1,219 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:background="@drawable/gradient_background">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="40dp" />
+
+        <!-- Title -->
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/textView"
+            style="@style/manrope.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/welcome"
+            android:textColor="@color/btn_color"
+            android:textSize="32sp"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Country Code Picker -->
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_white_bg"
+            android:gravity="center"
+            app:ccp_customMasterCountries="ZA,LS,BW,NA,MZ,ZM,ZW,NG,CM,GH,TZ,BJ,CD,CG,ID,IN"
+            app:ccp_defaultNameCode="CG"
+            app:ccp_showFlag="false"
+            app:ccp_arrowColor="@color/btn_color"
+            app:ccp_contentColor="@color/btn_color"
+            app:ccpDialog_textColor="@color/btn_color"
+            app:layout_constraintBottom_toBottomOf="@+id/clMobile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/clMobile" />
+
+        <!-- Mobile Number -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clMobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_white_bg"
+            android:gravity="center_vertical"
+
+            android:minHeight="65dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ccp"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <!-- Icon on the left side -->
+            <ImageView
+                android:id="@+id/ivMobileIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="Phone Icon"
+                android:src="@drawable/call"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TextInputLayout with TextInputEditText -->
+            <com.example.edupay.font.RobotoTextView
+                android:id="@+id/hitmobile"
+                style="@style/manrope.semibold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="@string/phone_no"
+                android:textSize="14sp"
+                android:textColorHint="@color/text_hint_color"
+                app:boxBackgroundMode="none"
+                app:boxStrokeColor="@android:color/transparent"
+                app:boxStrokeWidth="0dp"
+                app:layout_constraintStart_toEndOf="@id/ivMobileIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etMobile"
+                style="@style/manrope.semibold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:background="@null"
+                android:hint="@string/enter_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textColor="@color/btn_color"
+                android:textColorHint="@color/btn_color"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/hitmobile"
+                app:layout_constraintTop_toBottomOf="@+id/hitmobile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Email -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_white_bg"
+            android:gravity="center_vertical"
+            android:minHeight="65dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/clMobile">
+
+            <!-- Icon on the left side -->
+            <ImageView
+                android:id="@+id/ivEmailIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="Phone Icon"
+                android:src="@drawable/email"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TextInputLayout with TextInputEditText -->
+            <com.example.edupay.font.RobotoTextView
+                android:id="@+id/hitEmail"
+                style="@style/manrope.semibold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="@string/email_address"
+                android:textSize="14sp"
+                android:textColorHint="@color/text_hint_color"
+                app:boxBackgroundMode="none"
+                app:boxStrokeColor="@android:color/transparent"
+                app:boxStrokeWidth="0dp"
+                app:layout_constraintStart_toEndOf="@id/ivEmailIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="0dp"
+                style="@style/manrope.semibold"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:background="@null"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/btn_color"
+                android:textColorHint="@color/btn_color"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/hitEmail"
+                app:layout_constraintTop_toBottomOf="@+id/hitEmail" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Pay Fees / Continue Button -->
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/btnPayFees"
+            style="@style/manrope.Bold"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_btn_bg"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/clEmail" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvRegisterSchool"
+            style="@style/manrope.regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/reg"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/btnPayFees"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

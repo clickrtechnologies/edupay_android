@@ -1,0 +1,16 @@
+Hi @all Please find the updated build for Edupay
+https://we.tl/t-0PetVA9xOC
+Here are the updates :
+
+Language Support with Swahili   ---Done
+PATCH: /api/parent/8 - Ensure mobileNumber & email are mandatory --Done
+Prevent Direct Parent Account Creation (Database Check First) --Done
+Parent SignIn & SignUp API to return full response (child array + payment method) --Done
+Invalid Input by Parent → Show Message: “Sorry! Records not found!...”- Done
+GET: /api/student/profile/record is returning empty profile--Done
+Update Payment API to support Partial Payment--Done
+Emergency Notification Listing API (School Panel) Done
+Notification Listing API (Parent Panel) Done
+
+Testing (after all fixes) -Pending
+Push Notification not working (announcement-related) Need to check

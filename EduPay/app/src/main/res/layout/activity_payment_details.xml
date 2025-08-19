@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/rootScroll"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded_white_card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogo">
+
+            <LinearLayout
+                android:id="@+id/llContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerPadding="8dp"
+                android:orientation="vertical">
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvStudentName"
+                    style="@style/RobotoTextStyle"
+                    android:text="Student Name" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvPaymentDate"
+                    style="@style/RobotoTextStyle"
+                    android:text="Payment Date" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvAmountPaid"
+                    style="@style/RobotoTextStyle"
+                    android:text="Amount Paid" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvCurrency"
+                    style="@style/RobotoTextStyle"
+                    android:text="Currency" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvPaymentMethod"
+                    style="@style/RobotoTextStyle"
+                    android:text="Payment Method" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvSchoolName"
+                    style="@style/RobotoTextStyle"
+                    android:text="School Name" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvStartDate"
+                    style="@style/RobotoTextStyle"
+                    android:text="Start Date" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvEndDate"
+                    style="@style/RobotoTextStyle"
+                    android:text="End Date" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvStatus"
+                    style="@style/RobotoTextStyle"
+                    android:text="Status" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTransactionId"
+                    style="@style/RobotoTextStyle"
+                    android:text="Transaction ID" />
+
+                <!-- Fee Breakdown -->
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTuitionFee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Tuition Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTransportationFee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Transportation Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvStationaryFee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Stationary Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvUniformFee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Uniform Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvServiceCharges"
+                    style="@style/RobotoTextStyle"
+                    android:text="Service Charges" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTerm1Fee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Term 1 Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTerm2Fee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Term 2 Fee" />
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvTerm3Fee"
+                    style="@style/RobotoTextStyle"
+                    android:text="Term 3 Fee" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

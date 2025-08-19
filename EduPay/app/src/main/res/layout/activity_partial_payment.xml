@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_payment"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Title -->
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvTitle"
+            style="@style/manrope.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.02"
+            android:paddingBottom="16dp"
+            android:text="@string/partial_term_payment_title"
+            android:textColor="@color/primary_text_color"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvInstitute"
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/institute"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvRegNumber"
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/reg"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <!-- Amount Due -->
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvAmountDue"
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/amount_due"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <!-- Input Label -->
+        <com.example.edupay.font.RobotoTextView
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/enter_amount_label"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="16sp" />
+
+        <!-- Input Field Container -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_input_background"
+            android:elevation="4dp"
+            android:minHeight="64dp"
+            android:padding="12dp">
+
+            <!-- Icon -->
+            <ImageView
+                android:id="@+id/ivEmailIcon"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_payment"
+                android:tint="@color/btn_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Hint Text -->
+            <com.example.edupay.font.RobotoTextView
+                android:id="@+id/hitEmail"
+                style="@style/manrope.Bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:background="@null"
+                android:hint="@string/enter_amount"
+                android:textColorHint="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivEmailIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Input Field -->
+            <EditText
+                android:id="@+id/etPartialAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/rounded_border_white"
+                android:hint="@string/enter_amount_hint"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:textColor="@color/primary_text_color"
+                android:textColorHint="@color/text_hint_color"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/hitEmail"
+                app:layout_constraintTop_toBottomOf="@id/hitEmail" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvOutstandingAmount"
+            style="@style/manrope.semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/outstanading"
+            android:textColor="@color/green_500"
+            android:textSize="16sp" />
+
+        <!-- Button -->
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/btnChoosePayment"
+            style="@style/manrope.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/rounded_btn_bg"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnPayFees" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

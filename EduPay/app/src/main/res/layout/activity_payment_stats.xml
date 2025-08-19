@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient_background"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/gradient_background"
+                android:padding="16dp">
+
+                <!-- Tab Buttons -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_tab_unselected">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+
+                        android:layout_gravity="center"
+                        >
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/btnDue"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/payment_due"
+                            android:textStyle="bold"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_tab_selector"
+                            android:textColor="@color/white"
+                            android:padding="8dp"
+                            style="@style/manrope.Bold" />
+
+                        <com.example.edupay.font.RobotoTextView
+                            android:id="@+id/btnReceived"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:text="@string/payment_received"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_tab_unselected"
+                            android:textColor="@color/white"
+                            android:padding="8dp"
+                            style="@style/manrope.Bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!-- Pie Chart -->
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp" />
+
+                <!-- Recycler Title -->
+                <com.example.edupay.font.RobotoTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_details"
+                    android:textColor="@color/black"
+                    style="@style/manrope.semibold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Recycler View -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewPayments"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+
+                <com.example.edupay.font.RobotoTextView
+                    android:id="@+id/tvNoData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_result_found"
+                    android:textColor="@color/white"
+                    style="@style/manrope.semibold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp" />
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</layout>

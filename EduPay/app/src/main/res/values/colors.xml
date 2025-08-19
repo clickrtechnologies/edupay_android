@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#212121</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="green_500">#FF4CAF50</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="primary_color">#8A2BE2</color> <!-- Indigo -->
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#003A70</color>
+    <!-- Gray Shades -->
+    <color name="gray">#505050</color>         <!-- Gray 500 -->
+    <color name="light_gray">#E0E0E0</color>    <!-- Gray 300 -->
+
+    <color name="orange_500">#FF9800</color>
+    <color name="red">#F44336</color>
+
+    <!-- Main Dulex Theme Colors -->
+    <color name="dulex_primary">#8A2BE2</color>       <!-- Dark Blue - Primary Color -->
+    <color name="dulex_primary_yellow">#EDDE9C</color>       <!-- Dark Blue - Primary Color -->
+    <color name="dulex_secondary">#8A2BE2</color>    <!-- Rich Red - Accent Color -->
+    <color name="dulex_accent">#FBC31B</color>       <!-- Gold - Secondary Accent -->
+
+    <!-- Backgrounds -->
+    <color name="dulex_bg_light">#F5F7FA</color>     <!-- Light Gray Background -->
+    <color name="dulex_bg_dark">#34495E</color>      <!-- Dark Blue Background -->
+
+    <!-- Text Colors -->
+    <color name="dulex_text_primary">#212121</color> <!-- Dark Text -->
+    <color name="dulex_text_secondary">#757575</color><!-- Gray Text -->
+    <color name="dulex_text_light">#FFFFFF</color>   <!-- White Text -->
+
+    <!-- Status Colors -->
+    <color name="dulex_success">#27AE60</color>      <!-- Green -->
+    <color name="dulex_warning">#F39C12</color>      <!-- Orange -->
+    <color name="dulex_error">#3B88EC</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="btn_color">#2C4364</color>        <!-- Red -->
+    <color name="text_color">#27364E</color>
+    <color name="text_hint_color">#ADB4C0</color>
+    <color name="light_gray_1">#F8F8F8</color>
+    <color name="light_bg">#EAECF0</color>        <!-- Red -->
+
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="accent_color">#6200EA</color>
+</resources>

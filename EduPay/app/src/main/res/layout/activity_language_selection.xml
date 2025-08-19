@@ -1,0 +1,68 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/logo"
+            />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/tvSelectLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_language"
+            style="@style/manrope.Bold"
+            android:textColor="@color/btn_color"
+            android:textSize="20sp"
+            android:layout_marginBottom="24dp" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/btnEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/english"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            style="@style/manrope.semibold"
+            android:textColor="@android:color/black"
+            android:background="@drawable/bg_tab_selector"
+            android:layout_marginBottom="16dp" />
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/btnFrench"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/french"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            style="@style/manrope.semibold"
+            android:textColor="@android:color/black"
+            android:background="@drawable/bg_tab_unselected"
+            android:layout_marginBottom="16dp"/>
+
+        <com.example.edupay.font.RobotoTextView
+            android:id="@+id/btnSwahili"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/swaheli"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            style="@style/manrope.semibold"
+            android:textColor="@android:color/black"
+            android:background="@drawable/bg_tab_selector"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</layout>
